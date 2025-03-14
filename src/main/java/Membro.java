@@ -9,9 +9,9 @@ public class Membro {
         this.email = email;
     }
 
-    public String getNome() { return nome; }
-    public int getId() { return id; }
-    public String getEmail() { return email; }
+    public String Nome() { return nome; }
+    public int Id() { return id; }
+    public String Email() { return email; }
 
     @Override
     public String toString() {

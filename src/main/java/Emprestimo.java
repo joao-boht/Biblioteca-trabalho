@@ -11,9 +11,9 @@ public class Emprestimo {
         this.dataEmprestimo = dataEmprestimo;
     }
 
-    public Livro getLivro() { return livro; }
-    public Membro getMembro() { return membro; }
-    public LocalDate getDataEmprestimo() { return dataEmprestimo; }
+    public Livro Livro() { return livro; }
+    public Membro Membro() { return membro; }
+    public LocalDate DataEmprestimo() { return dataEmprestimo; }
 
     @Override
     public String toString() {
